@@ -199,8 +199,7 @@
 		</plugins>
 	</build>
 	<name>simple-web-app</name>
-</project>
-<distributionManagement>
+	<distributionManagement>
   <repository>
      <id>deployment</id>
      <name>Internal Releases</name>
@@ -212,3 +211,4 @@
      <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
   </snapshotRepository>
 </distributionManagement>
+</project>
